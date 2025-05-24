@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:h2:./cibseven;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password: sa
+  h2:
+    console:
+      enabled: true
+camunda:
+  bpm:
+    admin-user:
+      id: demo
+      password: demo
+      firstName: Demo
+      lastName: Demo
+    filter:
+      create: All Tasks
+
+cibseven:
+  webclient:
+    authentication:
+      jwtSecret: 9999LJ65jN4gdAeBj5nx78rqKYvqqZswZlP4k2TV218JbHD8kUf6R5HpP4fHDzd2ZbO3f53COn9OmUMnr7Qwhkb3roySoSOgt0bEFhEenCrJfqX043PVRcvsk8v9K3Wprf0NwfJXuPDKAvZnT9jhVE88888
+    services:
+      basePath: /webapp/services/v1
