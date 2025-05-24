@@ -18,7 +18,5 @@ camunda:
 
 cibseven:
   webclient:
-    authentication:
-      jwtSecret: 9999LJ65jN4gdAeBj5nx78rqKYvqqZswZlP4k2TV218JbHD8kUf6R5HpP4fHDzd2ZbO3f53COn9OmUMnr7Qwhkb3roySoSOgt0bEFhEenCrJfqX043PVRcvsk8v9K3Wprf0NwfJXuPDKAvZnT9jhVE88888
     services:
       basePath: /webapp/services/v1
