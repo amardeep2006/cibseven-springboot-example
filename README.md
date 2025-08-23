@@ -3,3 +3,4 @@ sample project to showcase cibseven in springboot project with engine-rest prote
 
 
 Note : There is a dummy secret for this hello world example in src/main/resources/cibseven-webclient.properties. In real world scenarions you will generate a random secret and not checkin. Have also raised a bug with cibseven team to pass it via ENV variable https://github.com/cibseven/cibseven/issues/93 that will be fixed in next release of CIB seven.
+Update: the secret issue is also fixed now. You can now use an system env variable CIBSEVEN_WEBCLIENT_AUTHENTICATION_JWTSECRET  
