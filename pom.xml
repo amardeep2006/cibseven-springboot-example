@@ -5,10 +5,10 @@
 
 	<groupId>com.examples.cibseven</groupId>
 	<artifactId>cibseven-application</artifactId>
-	<version>2.0.0</version>
+	<version>2.1.0-alpha</version>
 
 	<properties>
-		<springBoot.version>3.4.6</springBoot.version>
+		<springBoot.version>3.5.5</springBoot.version>
 	</properties>
 
 	<dependencyManagement>

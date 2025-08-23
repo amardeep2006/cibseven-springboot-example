@@ -15,8 +15,3 @@ camunda:
       lastName: Demo
     filter:
       create: All Tasks
-
-cibseven:
-  webclient:
-    services:
-      basePath: /webapp/services/v1
